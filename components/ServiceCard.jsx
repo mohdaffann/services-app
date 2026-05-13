@@ -19,7 +19,7 @@ function ServiceCard({ feature }) {
     const values = content.find((c) => c.title === feature);
     return (
         <div className="flex w-full  md:w-72 min-h-36  flex-col gap-4 border-gray-400 px-6 py-4 border hover:border-gray-800 cursor-pointer  rounded-md
-        transition duration-200 ease-in-out
+        transition duration-200 ease-in-out bg-white
         ">
             <h1 className="text-lg font-semibold text-gray-700">
                 {values.title}
