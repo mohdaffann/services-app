@@ -9,9 +9,9 @@ function Header() {
         <header className="sticky top-0 border-b bg-white">
             <div className="w-full flex items-center   h-16 px-6">
                 <Link href={'/'} className="font-bold text-xl text-gray-800">
-                    ModiFile
+                    <span className="text-red-600">Doc<span className="text-gray-800">Convert</span></span>
                 </Link>
-                <nav className="hidden md:flex items-center justify-center gap-6 text-sm text-gray-600">
+                <nav className="hidden md:flex items-center  gap-6 text-sm text-gray-600 ml-30 mr-auto">
                     <Link href="/services/pdf_to_docx" className="hover:text-gray-800">
                         PDF to DOCX
                     </Link>
@@ -19,7 +19,7 @@ function Header() {
                         DOCX to PDF
                     </Link>
                 </nav>
-                <button className="md:hidden" onClick={() => setOpen(!open)}>
+                <button className="md:hidden ml-auto" onClick={() => setOpen(!open)}>
                     {open ? <X /> : <Menu />}
                 </button>
             </div>
