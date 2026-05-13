@@ -59,7 +59,7 @@ function FileUploader({ fileType }) {
                     ref={fileRef}
                     onChange={fileHandler}
                 />
-                <button type="button" className="flex items-center gap-1 px-6 py-3 bg-blue-400 hover:bg-blue-500 text-white font-medium rounded-lg
+                <button type="button" className="flex items-center gap-1 px-12 py-5 bg-blue-400 hover:bg-blue-500 text-white font-medium rounded-lg
                 transition duration-200 ease-in-out cursor-pointer
                 "
                     onClick={fileTrigger}
