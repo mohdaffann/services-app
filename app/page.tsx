@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ServiceCard from '../components/ServiceCard.jsx'
+import ServiceCard from './components/ServiceCard.jsx'
 import Link from "next/link.js";
 export default function Home() {
   return (
